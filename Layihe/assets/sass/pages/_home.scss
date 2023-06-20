@@ -1,0 +1,1111 @@
+// sport start 
+.sport {
+    .contant {
+        padding-top: 80px;
+
+        .sportText {
+            font-weight: 200;
+            font-size: 1.5rem;
+            line-height: 1.175em;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #000;
+            margin-bottom: 30px;
+        }
+
+        .sportImg {
+            display: flex;
+            gap: 10px;
+
+            a {
+                transition: .3s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.01);
+                }
+            }
+        }
+
+        .sportBtn {
+            text-align: center;
+
+            .discover {
+                width: 100%;
+                max-width: 420px;
+                height: 50px;
+                border-radius: 25px;
+                border: 1px solid transparent;
+                overflow: hidden;
+                font-size: 14px;
+                text-align: center;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                transition: all .2s ease-in;
+                color: #fff;
+                background-color: #dc1f18;
+                margin-top: 20px;
+
+                &:hover {
+                    background-color: #000;
+                }
+            }
+        }
+    }
+}
+
+// sport end 
+
+// watchFor start 
+.watchFor {
+    padding-top: 20px;
+
+    .contant {
+        .forPeopleHim {
+            display: flex;
+
+            .picture {
+                .pictureImg {
+                    position: relative;
+                    display: grid;
+                    place-items: center;
+                    color: #fff;
+
+                    .pictureText {
+                        position: absolute;
+                        top: 80px;
+
+                        #discover {
+                            width: 100%;
+                            max-width: 420px;
+                            height: 50px;
+                            border-radius: 25px;
+                            border: 1px solid transparent;
+                            overflow: hidden;
+                            font-size: 14px;
+                            text-align: center;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            transition: all .2s ease-in;
+                            color: #fff;
+                            background-color: #dc1f18;
+                            margin-top: 20px;
+
+                            &:hover {
+                                background-color: #000;
+                            }
+                        }
+
+                        .him {
+                            font-weight: 300;
+                            font-size: 2.5rem;
+                            line-height: 1.175em;
+                            letter-spacing: 1px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+
+            .watches {
+                display: flex;
+                flex-wrap: wrap;
+
+                .card {
+                    width: 50%;
+                    display: grid;
+                    place-items: center;
+
+                    &:hover {
+                        color: #dc1f18;
+                    }
+
+                    h4 {
+                        max-width: 200px;
+                        text-align: center;
+                    }
+
+                    p {
+                        padding-top: 10px;
+                        font-size: 14px;
+                    }
+
+                    img {
+                        transition: .3s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+
+        .forPeopleHer {
+            padding-top: 150px;
+            display: flex;
+
+            .picture {
+                .pictureImg {
+                    position: relative;
+                    display: grid;
+                    place-items: center;
+                    color: #fff;
+
+                    img {
+                        order: -1;
+                        width: inherit;
+                        max-width: 600px;
+                    }
+
+                    .pictureText {
+                        position: absolute;
+                        top: 80px;
+
+                        .discover {
+                            width: 100%;
+                            max-width: 420px;
+                            height: 50px;
+                            border-radius: 25px;
+                            border: 1px solid transparent;
+                            overflow: hidden;
+                            font-size: 14px;
+                            text-align: center;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            transition: all .2s ease-in;
+                            color: #fff;
+                            background-color: #dc1f18;
+                            margin-top: 20px;
+
+                            &:hover {
+                                background-color: #000;
+                            }
+                        }
+
+                        .him {
+                            font-weight: 300;
+                            font-size: 2.5rem;
+                            line-height: 1.175em;
+                            letter-spacing: 1px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+
+            .watchesHer {
+                display: flex;
+                flex-wrap: wrap;
+
+                .card {
+                    width: 50%;
+                    display: grid;
+                    place-items: center;
+
+                    &:hover {
+                        color: #dc1f18;
+                    }
+
+                    h4 {
+                        max-width: 200px;
+                        text-align: center;
+                    }
+
+                    p {
+                        padding-top: 10px;
+                        font-size: 14px;
+                    }
+
+                    img {
+                        transition: .3s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// watchFor end 
+
+// our start 
+.our {
+    padding-top: 100px;
+
+    .contant {
+        .ourText {
+            text-align: center;
+            font-weight: 200;
+            font-size: 2rem;
+            line-height: 1.175em;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #000;
+        }
+
+        .ourCategories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding-top: 40px;
+
+            .card {
+                width: 15%;
+                text-align: center;
+
+                .cardBox {
+                    font-size: 1em;
+                    text-transform: uppercase;
+                    letter-spacing: .05em;
+                    font-weight: 400;
+                    color: #000;
+                    text-align: center;
+
+                    &:hover {
+                        color: #dc1f18;
+
+                        p {
+                            &:hover {
+                                color: #dc1f18;
+                            }
+                        }
+
+                    }
+                }
+
+
+                img {
+                    transition: .3s ease-in-out;
+                    padding-top: 30px;
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                }
+            }
+        }
+
+        .gift {
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+
+            .giftImg {
+                width: 50%;
+            }
+
+            .giftText {
+                width: 50%;
+
+                h3 {
+                    font-weight: 300;
+                    font-size: 2rem;
+                    line-height: 1.25em;
+                    color: #000;
+                    text-transform: uppercase;
+                    padding-bottom: 25px;
+                }
+
+                p {
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 1.66em;
+                    color: #25252588;
+                }
+
+                .ourBtn {
+                    color: #fff;
+                    background-color: #dc1f18;
+                    width: 100%;
+                    max-width: 400px;
+                    height: 3.5rem;
+                    border-radius: 25px;
+                    border: 1px solid transparent;
+                    overflow: hidden;
+                    font-weight: 600;
+                    font-size: 14px;
+                    text-align: center;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    transition: all .2s ease-in;
+                    margin-top: 20px;
+
+                    &:hover {
+                        background-color: #000;
+                    }
+                }
+            }
+        }
+
+        .register {
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+
+            .registerImg {
+                width: 50%;
+            }
+
+            .registerText {
+                width: 50%;
+
+                h3 {
+                    font-weight: 300;
+                    font-size: 2rem;
+                    line-height: 1.25em;
+                    color: #000;
+                    text-transform: uppercase;
+                    padding-bottom: 25px;
+                }
+
+                p {
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 1.66em;
+                    color: #25252588;
+                }
+
+                .registerBtn {
+                    color: #fff;
+                    background-color: #dc1f18;
+                    width: 100%;
+                    max-width: 400px;
+                    height: 3rem;
+                    border-radius: 25px;
+                    border: 1px solid transparent;
+                    overflow: hidden;
+                    font-weight: 600;
+                    font-size: 14px;
+                    text-align: center;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    transition: all .2s ease-in;
+                    margin-top: 20px;
+
+                    &:hover {
+                        background-color: #000;
+                    }
+                }
+            }
+        }
+
+        .damian {
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+
+            .damianImg {
+                width: 50%;
+            }
+
+            .damianText {
+                width: 50%;
+
+                h3 {
+                    font-weight: 300;
+                    font-size: 2rem;
+                    line-height: 1.25em;
+                    color: #000;
+                    text-transform: uppercase;
+                    padding-bottom: 25px;
+                }
+
+                p {
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 1.66em;
+                    color: #25252588;
+                }
+
+            }
+        }
+
+        .primoz {
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+
+            .primozImg {
+                width: 50%;
+            }
+
+            .primozText {
+                width: 50%;
+
+                h3 {
+                    font-weight: 300;
+                    font-size: 2rem;
+                    line-height: 1.25em;
+                    color: #000;
+                    text-transform: uppercase;
+                    padding-bottom: 25px;
+                }
+
+                p {
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 1.66em;
+                    color: #25252588;
+                }
+
+            }
+        }
+    }
+}
+
+// our end 
+
+// novelties start 
+.novelties {
+    text-align: center;
+
+    .contant {
+        h6 {
+            font-weight: 100;
+            font-size: 2.5rem;
+            line-height: 1.175em;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding-bottom: 50px;
+        }
+
+        .watchBox {
+            margin: 0 auto;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            .slick-prev.slick-arrow {
+                max-height: 30px;
+
+            }
+
+            .slick-prev:before {
+                content: '←';
+                font-family: 'slick';
+                font-size: 20px;
+                line-height: 1;
+                opacity: .75;
+            }
+
+            .slick-next:before {
+                content: '→';
+            }
+
+            .watchBoxBTN {
+                display: block !important;
+                width: 0 !important;
+            }
+
+            .watchBoxImg {
+                transform: scale(1);
+                transition: all .2s;
+                background-color: #f6f6f6;
+                margin-right: 10px;
+                margin-left: 10px;
+                width: 20%;
+                max-width: 290px;
+
+                img {
+                    max-width: 290px;
+                }
+            }
+
+        }
+
+        .discover {
+            margin-top: 60px;
+            width: 100%;
+            max-width: 330px;
+            height: 3rem;
+            border-radius: 25px;
+            border: 1px solid transparent;
+            position: relative;
+            overflow: hidden;
+            font-weight: 500;
+            font-size: 1.1rem;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all .2s ease-in;
+            color: #fff;
+            background-color: #dc1f18;
+            border-color: #dc1f18;
+            transition: 300ms;
+
+            &:hover {
+                background-color: #000;
+            }
+        }
+    }
+}
+
+// novelties end 
+
+// latest start 
+.latest {
+    text-align: center;
+    padding-top: 50px;
+
+    .contant {
+        .latestText {
+            h4 {
+                font-weight: 10;
+                font-size: 2.5rem;
+                line-height: 1.175em;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+        }
+
+        .latestCardBox {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px;
+            padding-top: 40px;
+
+            .latestCard {
+                width: 24%;
+                text-align: start;
+                font-size: 1em;
+                letter-spacing: .05em;
+                font-weight: 400;
+                color: #000;
+                text-align: start;
+
+                h4 {
+                    padding-top: 20px;
+                    transition: 300ms;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        color: #dc1f18;
+                    }
+                }
+
+                .time {
+                    padding-bottom: 20px;
+                }
+
+                p {
+                    color: #252525bb;
+                }
+
+
+                img {
+                    transition: .3s ease-in-out;
+                    padding-top: 30px;
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                }
+            }
+        }
+
+        .view {
+            margin-top: 50px;
+            color: #fff;
+            background-color: #dc1f18;
+            width: 100%;
+            max-width: 250px;
+            height: 3rem;
+            border-radius: 25px;
+            border: 1px solid transparent;
+            position: relative;
+            overflow: hidden;
+            font-weight: 500;
+            font-size: 1rem;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all .2s ease-in;
+
+            &:hover {
+                background-color: #000;
+            }
+        }
+    }
+}
+
+// latest end 
+
+
+.store {
+    display: flex;
+
+    .locator {
+        .storeImg {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .storeText {
+                position: absolute;
+                display: grid;
+                place-items: center;
+                width: 100%;
+
+                // top: 50px;
+                p {
+                    font-weight: 300;
+                    font-size: 2rem;
+                    line-height: 1.175em;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    color: #000;
+                }
+
+                .storeBtn {
+                    width: 100%;
+                    max-width: 300px;
+                    height: 3rem;
+                    border-radius: 25px;
+                    border: 1px solid transparent;
+                    position: relative;
+                    overflow: hidden;
+                    font-weight: 500;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    transition: all .2s ease-in;
+                    margin-top: 15px;
+                    color: #fff;
+                    background-color: #dc1f18;
+
+                    &:hover {
+                        background-color: #000;
+                    }
+                }
+            }
+        }
+    }
+
+    .service {
+        .storeImg {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .storeText {
+                position: absolute;
+                display: grid;
+                place-items: center;
+                width: 100%;
+                color: #fff;
+
+                p {
+                    font-weight: 300;
+                    font-size: 2rem;
+                    line-height: 1.175em;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                }
+
+                .storeBtn {
+                    width: 100%;
+                    max-width: 300px;
+                    height: 3rem;
+                    border-radius: 25px;
+                    border: 1px solid transparent;
+                    position: relative;
+                    overflow: hidden;
+                    font-weight: 500;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    transition: all .2s ease-in;
+                    margin-top: 15px;
+                    color: #fff;
+                    background-color: #dc1f18;
+
+                    &:hover {
+                        background-color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .sport {
+        .contant {
+            padding: 50px 20px;
+
+            .sportText {
+                font-weight: 200;
+                font-size: 1.3rem;
+                margin-bottom: 20px;
+            }
+
+            .sportImg {
+                display: flex;
+                flex-direction: column;
+
+                a {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    // sport end
+
+    .watchFor {
+        padding-top: 0px;
+
+        .contant {
+            padding: 0px;
+
+            .forPeopleHim {
+                display: flex;
+                flex-direction: column;
+
+                .picture {
+                    .pictureImg {
+                        .pictureText {
+                            .discover {
+                                max-width: 300px;
+                                height: 30px;
+                                font-size: 12px;
+                                margin-top: 15px;
+                            }
+
+                            .him {
+                                font-weight: 300;
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+
+                .watches {
+                    h4 {
+                        max-width: 150px;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .forPeopleHer {
+                padding-top: 100px;
+                display: flex;
+                flex-direction: column;
+
+                .picture {
+                    order: -1;
+
+                    .pictureImg {
+                        img {
+                            width: 100%;
+                            max-width: 600px;
+                        }
+
+                        .pictureText {
+                            position: absolute;
+                            top: 80px;
+
+                            .discover {
+                                max-width: 300px;
+                                height: 30px;
+                                font-size: 12px;
+                                margin-top: 15px;
+                            }
+
+                            .him {
+                                font-weight: 300;
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+
+                .watchesHer {
+                    h4 {
+                        max-width: 150px;
+                    }
+                }
+            }
+        }
+    }
+
+    // watchFor end
+
+    .our {
+        padding-top: 100px;
+
+        .contant {
+            padding: 20px;
+
+            .ourText {
+                font-size: 1.5rem;
+            }
+
+            .ourCategories {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+                padding-top: 30px;
+
+                .card {
+                    width: 30%;
+
+                    .cardBox {
+                        font-size: 10px;
+                        letter-spacing: 0em;
+                        font-weight: 200;
+                        padding-right: 20px;
+
+                        &:hover {
+                            color: #dc1f18;
+                        }
+                    }
+                }
+            }
+
+            .gift {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .giftImg {
+                    width: 100%;
+                }
+
+                .giftText {
+                    width: 100%;
+                }
+            }
+
+            .register {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .registerImg {
+                    width: 100%;
+                    order: -1;
+                }
+
+                .registerText {
+                    width: 100%;
+                }
+            }
+
+            .damian {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .damianImg {
+                    width: 100%;
+                }
+
+                .damianText {
+                    width: 100%;
+                }
+            }
+
+            .primoz {
+                flex-direction: column;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .primozImg {
+                    width: 100%;
+                    order: -1;
+                }
+
+                .primozText {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    // our end 
+
+    .novelties {
+        .contant {
+            padding: 20px;
+
+            h6 {
+                font-size: 2rem;
+            }
+
+            .discover {
+                margin-top: 40px;
+                max-width: 300px;
+                height: 2.5rem;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    // novelties end 
+
+    .latest {
+        .contant {
+            padding: 20px;
+
+            .latestCardBox {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+
+                .latestCard {
+                    width: 100%;
+
+                }
+            }
+
+            .view {
+                margin-top: 30px;
+                max-width: 200px;
+                height: 2.5rem;
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    // latest end 
+
+    .store {
+        display: flex;
+        flex-direction: column;
+    }
+
+    // store end 
+
+    .regsiterWatches {
+        .contant {
+            display: flex;
+            flex-direction: column;
+
+            .onlineText {
+                width: 100% !important;
+                padding-right: 0px;
+            }
+
+            .onlineImg {
+                margin-top: 20px;
+                width: 100% !important;
+            }
+
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .register {
+        .registerImg {
+            width: 50%;
+            order: 1;
+        }
+    }
+
+    .forPeopleHer {
+        .picture {
+            order: 1;
+        }
+    }
+
+    .primoz {
+        .primozImg {
+            width: 50%;
+            order: 1;
+        }
+    }
+}
+
+
+.regsiterWatches {
+    .contant {
+        display: flex;
+        padding-bottom: 0;
+        padding-top: 0;
+
+        .onlineText {
+            width: 50%;
+            padding-right: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1 {
+                font-size: 2em;
+                font-weight: 700;
+                letter-spacing: 1px;
+                line-height: 1.25em;
+                text-transform: uppercase;
+            }
+
+            p {
+                padding: 20px 0;
+                font-size: 1.125em;
+                font-weight: 300;
+                line-height: 1.66em;
+                color: rgba(0, 0, 0, 0.486);
+            }
+
+            .resgiterCreate {
+                margin-top: 50px;
+                align-items: center;
+                border: 1px solid transparent;
+                border-radius: 25px;
+                display: inline-flex;
+                font-size: .75em;
+                font-weight: 400;
+                justify-content: center;
+                letter-spacing: 2px;
+                line-height: 1.33em;
+                padding: 17px 30px;
+                text-align: center;
+                text-transform: uppercase;
+                background: #dc1f18;
+                border: 0;
+                color: #fff;
+                overflow: hidden;
+                position: relative;
+                transition: background-color .3s, color .3s, border-color .3s;
+
+                &:hover {
+                    background-color: #000;
+                }
+
+            }
+        }
+
+        .onlineImg {
+            width: 50%;
+        }
+
+    }
+}

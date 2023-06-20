@@ -1,0 +1,110 @@
+.nav {
+  width: 100%;
+  max-width: 1440px;
+  color: #fff;
+  background-color: #fff;
+}
+.nav .tissotFirst .contant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .tissotFirst .contant .brandCustomer {
+  display: flex;
+  gap: 20px;
+}
+.nav .tissotFirst .contant .brandCustomer a {
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.nav .tissotFirst .contant .brandCustomer a:hover {
+  color: #dc1f18;
+}
+.nav .tissotFirst .contant .brandCustomerMenu {
+  display: none;
+}
+.nav .tissotFirst .contant .brandCustomerMenu .brandIcon i {
+  font-size: 18px;
+}
+.nav .tissotFirst .contant .logo {
+  width: 100%;
+  max-width: 200px;
+}
+.nav .tissotFirst .contant .searchLogin {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav .tissotFirst .contant .searchLogin .watch {
+  transition: 400ms;
+  text-align: center;
+  max-width: 90px;
+}
+.nav .tissotFirst .contant .searchLogin .watch:hover {
+  color: #dc1f18;
+}
+.nav .tissotFirst .contant .searchLogin .watch:hover .register {
+  display: block;
+}
+.nav .tissotFirst .contant .searchLogin .watch .register {
+  display: none;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.nav .tissotFirst .contant .searchLogin .login {
+  text-align: center;
+  max-width: 100px;
+  transition: 400ms;
+}
+.nav .tissotFirst .contant .searchLogin .login:hover {
+  color: #dc1f18;
+}
+.nav .tissotFirst .contant .searchLogin .login:hover .account {
+  display: block;
+}
+.nav .tissotFirst .contant .searchLogin .login .account {
+  display: none;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.nav .tissotFirst .contant .searchLogin .search {
+  background: none;
+  border: none;
+  color: #fff;
+}
+.nav .tissotFirst .contant .searchLogin .search:hover {
+  color: #dc1f18;
+}
+.nav .tissortSecond .searchLogin {
+  padding: 10px;
+  display: none;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+.nav .tissortSecond .searchLogin .search {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem !important;
+  background: none;
+  border: 1px solid #fff;
+  gap: 10px;
+}
+.nav .tissortSecond ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.nav .tissortSecond ul li a {
+  font-size: 13px;
+  font-weight: 600;
+}
+.nav .tissortSecond ul li a:hover {
+  color: #dc1f18;
+}/*# sourceMappingURL=customer.css.map */

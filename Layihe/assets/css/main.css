@@ -1,0 +1,2937 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contant {
+  padding: 50px;
+  max-width: 1330px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  font-family: "Roboto Serif", serif;
+}
+
+#nav {
+  width: 100%;
+  max-width: 1440px;
+  color: #fff;
+  padding-bottom: 20px;
+  transition: 400ms;
+  background: linear-gradient(to bottom, #25211e 0, rgba(37, 33, 30, 0) 100%);
+}
+#nav:hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+#nav:hover .tissotFirst .contant .searchLogin .search {
+  color: #000 !important;
+}
+#nav .tissotFirst .contant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav .tissotFirst .contant .brandCustomer {
+  display: flex;
+  gap: 20px;
+}
+#nav .tissotFirst .contant .brandCustomer a {
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 12px;
+}
+#nav .tissotFirst .contant .brandCustomer a:hover {
+  color: #dc1f18;
+}
+#nav .tissotFirst .contant .brandCustomerMenu {
+  display: none;
+}
+#nav .tissotFirst .contant .brandCustomerMenu .brandIcon i {
+  font-size: 18px;
+}
+#nav .tissotFirst .contant .logo {
+  width: 100%;
+  max-width: 200px;
+}
+#nav .tissotFirst .contant .searchLogin {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  transition: 300ms;
+}
+#nav .tissotFirst .contant .searchLogin .watch {
+  transition: 400ms;
+  text-align: center;
+  max-width: 90px;
+  position: relative;
+  width: 100%;
+}
+#nav .tissotFirst .contant .searchLogin .watch:hover {
+  color: #dc1f18;
+}
+#nav .tissotFirst .contant .searchLogin .watch:hover .register {
+  display: block;
+}
+#nav .tissotFirst .contant .searchLogin .watch .register {
+  display: none;
+  font-size: 7px;
+  margin-top: 5px;
+  position: absolute;
+}
+#nav .tissotFirst .contant .searchLogin .login {
+  text-align: center;
+  max-width: 100px;
+  transition: 400ms;
+  position: relative;
+  width: 100%;
+}
+#nav .tissotFirst .contant .searchLogin .login:hover {
+  color: #dc1f18;
+}
+#nav .tissotFirst .contant .searchLogin .login:hover .account {
+  display: block;
+}
+#nav .tissotFirst .contant .searchLogin .login .account {
+  display: none;
+  font-size: 10px;
+  margin-top: 5px;
+  position: absolute;
+}
+#nav .tissotFirst .contant .searchLogin .search {
+  background: none;
+  border: none;
+  color: #fff;
+  display: flex;
+  transition: 300ms;
+  gap: 5px;
+}
+#nav .tissotFirst .contant .searchLogin .search:hover {
+  color: #dc1f18;
+}
+#nav .tissotFirst .contant .searchLogin .search .fa-solid {
+  transition: 400ms;
+}
+#nav .tissortSecond .searchLogin {
+  padding: 10px;
+  display: none;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  transition: 300ms;
+}
+#nav .tissortSecond .searchLogin .search {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem !important;
+  background: none;
+  border: 1px solid #fff;
+  gap: 10px;
+}
+#nav .tissortSecond ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+#nav .tissortSecond ul li a {
+  font-size: 13px;
+  font-weight: 600;
+}
+#nav .tissortSecond ul li a:hover {
+  color: #dc1f18;
+}
+
+@media only screen and (max-width: 768px) {
+  #nav .tissotFirst .contant {
+    padding: 10px;
+  }
+  #nav .tissotFirst .contant .brandCustomer {
+    display: none;
+  }
+  #nav .tissotFirst .contant .brandCustomerMenu {
+    display: block;
+    margin-right: 10px;
+  }
+  #nav .tissotFirst .contant .logo {
+    width: 100%;
+    max-width: 150px;
+  }
+  #nav .tissotFirst .contant .searchLogin .watch {
+    display: none;
+  }
+  #nav .tissotFirst .contant .searchLogin .search {
+    display: none;
+  }
+  #nav .tissotFirst .contant .searchLogin .search .search {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    background: none;
+    border: 1px solid #fff;
+    gap: 10px;
+  }
+  #nav .tissortSecond .searchLogin {
+    display: block;
+  }
+  #nav .tissortSecond .searchLogin .search {
+    padding: 5px 8px;
+  }
+  #nav .tissortSecond ul {
+    display: none;
+  }
+}
+.title {
+  display: none;
+  padding: 20px;
+}
+.title .exitTissot {
+  display: flex;
+  justify-content: space-between;
+}
+.title .exitTissot .logo {
+  width: 100%;
+  max-width: 200px;
+}
+.title .exitTissot .exit i {
+  font-size: 22px;
+}
+.title .people {
+  padding: 40px 0;
+}
+.title .people ul li {
+  padding-top: 20px;
+}
+.title .people ul li a {
+  font-size: 25px;
+}
+.title .people ul li a:hover {
+  color: #dc1f18;
+}
+.title .line {
+  height: 2px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.title .service {
+  padding-top: 20px;
+}
+.title .service .brand {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.title .service .brand:hover {
+  color: #dc1f18;
+}
+.title .service .brand a {
+  font-size: 20px;
+}
+
+.clickShow {
+  display: none;
+  background-color: #fff;
+}
+.clickShow .searchShow {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 100px;
+}
+.clickShow .searchShow img {
+  max-width: 200px;
+}
+.clickShow .searchShow .inputAndBtn {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+.clickShow .searchShow .inputAndBtn .searchWrite {
+  width: 100%;
+  font-size: 16px !important;
+  height: 3rem !important;
+  border: 0;
+  font-weight: 300;
+  color: #757575;
+}
+.clickShow .searchShow .inputAndBtn .searchForm {
+  background-color: #dc1f18;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  border: 0;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 120px;
+  transition: 300ms;
+}
+.clickShow .searchShow .inputAndBtn .searchForm:hover {
+  background-color: #000;
+}
+.clickShow .searchShow .btnExit {
+  border: none;
+  background: none;
+}
+.clickShow .searchShow .btnExit i {
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #000;
+}
+footer .join {
+  background-color: #4f4f4f;
+  color: #fff;
+  display: block;
+  padding: 30px;
+  text-align: center;
+}
+footer .join h2 {
+  font-size: 40px;
+  font-weight: 10;
+  letter-spacing: 1px;
+  line-height: 1.175em;
+  text-transform: uppercase;
+}
+footer .join p {
+  padding: 30px 0;
+}
+footer .join form #gsearch {
+  appearance: none;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: #252525;
+  filter: none;
+  height: 56px;
+  padding: 0 10px 0 15px;
+  width: 100%;
+  max-width: 500px;
+}
+footer .join form .submit {
+  background: #dc1f18;
+  border: 0;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 17px 60px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 20px;
+  transition: 300ms;
+}
+footer .join form .submit:hover {
+  background-color: #000;
+}
+footer .tissotImg {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 150px;
+  padding-bottom: 80px;
+}
+footer .list {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .list .listF {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  padding-right: 50px;
+}
+footer .list .listS {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+footer .list .listIcon i {
+  font-size: 25px;
+  transition: 300ms;
+}
+footer .list .listIcon i:hover {
+  color: #dc1f18;
+}
+footer .list .listName {
+  padding: 25px 0;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 300ms;
+}
+footer .list .listName:hover {
+  color: #dc1f18;
+}
+footer .list .listMenu {
+  padding-top: 50px;
+}
+footer .list .listMenu ul li {
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-size: 14px;
+}
+footer .list .listMenu ul li a {
+  transition: 300ms;
+}
+footer .list .listMenu ul li a:hover {
+  color: #dc1f18;
+}
+footer .list .listMenu ul li .delete {
+  color: black;
+}
+footer .list .listMenu ul li .delete:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    text-align: center;
+    background-color: #000;
+  }
+  footer .join {
+    background-color: #4f4f4f;
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  footer .join h2 {
+    font-size: 30px;
+  }
+  footer .join p {
+    padding: 20px 0;
+    font-size: 12px;
+  }
+  footer .join form #gsearch {
+    height: 46px;
+    padding: 0 8px 0 10px;
+    width: 100%;
+    max-width: 200px;
+  }
+  footer .join form .submit {
+    width: 100%;
+    max-width: 50px;
+    padding: 10px 50px;
+    margin-left: 10px;
+  }
+  footer .tissotImg {
+    max-width: 120px;
+    padding-bottom: 50px;
+  }
+  footer .list {
+    color: #fff;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  footer .list .listF {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0;
+  }
+  footer .list .listS {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .list .listIcon i {
+    font-size: 25px;
+    transition: 300ms;
+  }
+  footer .list .listIcon i:hover {
+    color: #dc1f18;
+  }
+  footer .list .listName {
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 300ms;
+  }
+  footer .list .listName:hover {
+    color: #dc1f18;
+  }
+  footer .list .listMenu {
+    padding-top: 20px;
+  }
+  footer .list .listMenu ul li {
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  footer .list .listMenu ul li a {
+    transition: 300ms;
+  }
+  footer .list .listMenu ul li a:hover {
+    color: #dc1f18;
+  }
+  footer .list .listMenu ul li .delete {
+    color: black;
+  }
+  footer .list .listMenu ul li .delete:hover {
+    color: black;
+  }
+}
+.seastar {
+  margin-bottom: 330px;
+}
+.seastar .contant {
+  padding: 40px;
+  max-width: 440px;
+  width: 100%;
+  color: #fff;
+  margin: 0px;
+  padding-top: 70px;
+}
+.seastar .contant .tissotSeastar {
+  font-size: 40px;
+  margin-bottom: 40px;
+  margin-top: -50;
+  text-shadow: 1px 1px 3px black;
+}
+.seastar .contant .discover {
+  color: #fff;
+  background-color: #dc1f18;
+  width: 100%;
+  max-width: 36rem;
+  height: 60px;
+  border-radius: 60px;
+  border: 1px solid transparent;
+  position: relative;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+  margin-top: 20px;
+}
+.seastar .contant .discover:hover {
+  background-color: black;
+}
+
+video {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .seastar {
+    padding-top: 150px;
+    margin-bottom: 10px;
+  }
+  .seastar .contant {
+    padding-top: 0px;
+    max-width: 320px;
+    width: 100%;
+    color: #fff;
+  }
+  .seastar .contant .tissotSeastar {
+    font-size: 20px;
+    margin-bottom: -17px;
+    margin-top: 0;
+    text-shadow: 1px 1px 3px black;
+  }
+  .seastar .contant .discover {
+    width: 50%;
+    max-width: 25rem;
+    height: 40px;
+  }
+}
+@media (min-aspect-ratio: 16/9) {
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  video {
+    width: auto;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .seastar {
+    margin-bottom: 50px;
+  }
+  .seastar .contant .tissotSeastar {
+    font-size: 20px;
+    margin-bottom: -17px;
+    margin-top: 0;
+    text-shadow: 1px 1px 3px black;
+  }
+  .seastar .contant .discover {
+    width: 50%;
+    max-width: 25rem;
+    height: 40px;
+  }
+}
+.sport .contant {
+  padding-top: 80px;
+}
+.sport .contant .sportText {
+  font-weight: 200;
+  font-size: 1.5rem;
+  line-height: 1.175em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 30px;
+}
+.sport .contant .sportImg {
+  display: flex;
+  gap: 10px;
+}
+.sport .contant .sportImg a {
+  transition: 0.3s ease-in-out;
+}
+.sport .contant .sportImg a:hover {
+  transform: scale(1.01);
+}
+.sport .contant .sportBtn {
+  text-align: center;
+}
+.sport .contant .sportBtn .discover {
+  width: 100%;
+  max-width: 420px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+  color: #fff;
+  background-color: #dc1f18;
+  margin-top: 20px;
+}
+.sport .contant .sportBtn .discover:hover {
+  background-color: #000;
+}
+
+.watchFor {
+  padding-top: 20px;
+}
+.watchFor .contant .forPeopleHim {
+  display: flex;
+}
+.watchFor .contant .forPeopleHim .picture .pictureImg {
+  position: relative;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+.watchFor .contant .forPeopleHim .picture .pictureImg .pictureText {
+  position: absolute;
+  top: 80px;
+}
+.watchFor .contant .forPeopleHim .picture .pictureImg .pictureText #discover {
+  width: 100%;
+  max-width: 420px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+  color: #fff;
+  background-color: #dc1f18;
+  margin-top: 20px;
+}
+.watchFor .contant .forPeopleHim .picture .pictureImg .pictureText #discover:hover {
+  background-color: #000;
+}
+.watchFor .contant .forPeopleHim .picture .pictureImg .pictureText .him {
+  font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 1.175em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.watchFor .contant .forPeopleHim .watches {
+  display: flex;
+  flex-wrap: wrap;
+}
+.watchFor .contant .forPeopleHim .watches .card {
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+.watchFor .contant .forPeopleHim .watches .card:hover {
+  color: #dc1f18;
+}
+.watchFor .contant .forPeopleHim .watches .card h4 {
+  max-width: 200px;
+  text-align: center;
+}
+.watchFor .contant .forPeopleHim .watches .card p {
+  padding-top: 10px;
+  font-size: 14px;
+}
+.watchFor .contant .forPeopleHim .watches .card img {
+  transition: 0.3s ease-in-out;
+}
+.watchFor .contant .forPeopleHim .watches .card img:hover {
+  transform: scale(1.1);
+}
+.watchFor .contant .forPeopleHer {
+  padding-top: 150px;
+  display: flex;
+}
+.watchFor .contant .forPeopleHer .picture .pictureImg {
+  position: relative;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+.watchFor .contant .forPeopleHer .picture .pictureImg img {
+  order: -1;
+  width: inherit;
+  max-width: 600px;
+}
+.watchFor .contant .forPeopleHer .picture .pictureImg .pictureText {
+  position: absolute;
+  top: 80px;
+}
+.watchFor .contant .forPeopleHer .picture .pictureImg .pictureText .discover {
+  width: 100%;
+  max-width: 420px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+  color: #fff;
+  background-color: #dc1f18;
+  margin-top: 20px;
+}
+.watchFor .contant .forPeopleHer .picture .pictureImg .pictureText .discover:hover {
+  background-color: #000;
+}
+.watchFor .contant .forPeopleHer .picture .pictureImg .pictureText .him {
+  font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 1.175em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.watchFor .contant .forPeopleHer .watchesHer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.watchFor .contant .forPeopleHer .watchesHer .card {
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+.watchFor .contant .forPeopleHer .watchesHer .card:hover {
+  color: #dc1f18;
+}
+.watchFor .contant .forPeopleHer .watchesHer .card h4 {
+  max-width: 200px;
+  text-align: center;
+}
+.watchFor .contant .forPeopleHer .watchesHer .card p {
+  padding-top: 10px;
+  font-size: 14px;
+}
+.watchFor .contant .forPeopleHer .watchesHer .card img {
+  transition: 0.3s ease-in-out;
+}
+.watchFor .contant .forPeopleHer .watchesHer .card img:hover {
+  transform: scale(1.1);
+}
+
+.our {
+  padding-top: 100px;
+}
+.our .contant .ourText {
+  text-align: center;
+  font-weight: 200;
+  font-size: 2rem;
+  line-height: 1.175em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+}
+.our .contant .ourCategories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 40px;
+}
+.our .contant .ourCategories .card {
+  width: 15%;
+  text-align: center;
+}
+.our .contant .ourCategories .card .cardBox {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+}
+.our .contant .ourCategories .card .cardBox:hover {
+  color: #dc1f18;
+}
+.our .contant .ourCategories .card .cardBox:hover p:hover {
+  color: #dc1f18;
+}
+.our .contant .ourCategories .card img {
+  transition: 0.3s ease-in-out;
+  padding-top: 30px;
+}
+.our .contant .ourCategories .card img:hover {
+  transform: scale(1.05);
+}
+.our .contant .gift {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.our .contant .gift .giftImg {
+  width: 50%;
+}
+.our .contant .gift .giftText {
+  width: 50%;
+}
+.our .contant .gift .giftText h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.25em;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.our .contant .gift .giftText p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.66em;
+  color: rgba(37, 37, 37, 0.5333333333);
+}
+.our .contant .gift .giftText .ourBtn {
+  color: #fff;
+  background-color: #dc1f18;
+  width: 100%;
+  max-width: 400px;
+  height: 3.5rem;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+  margin-top: 20px;
+}
+.our .contant .gift .giftText .ourBtn:hover {
+  background-color: #000;
+}
+.our .contant .register {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.our .contant .register .registerImg {
+  width: 50%;
+}
+.our .contant .register .registerText {
+  width: 50%;
+}
+.our .contant .register .registerText h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.25em;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.our .contant .register .registerText p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.66em;
+  color: rgba(37, 37, 37, 0.5333333333);
+}
+.our .contant .register .registerText .registerBtn {
+  color: #fff;
+  background-color: #dc1f18;
+  width: 100%;
+  max-width: 400px;
+  height: 3rem;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+  margin-top: 20px;
+}
+.our .contant .register .registerText .registerBtn:hover {
+  background-color: #000;
+}
+.our .contant .damian {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.our .contant .damian .damianImg {
+  width: 50%;
+}
+.our .contant .damian .damianText {
+  width: 50%;
+}
+.our .contant .damian .damianText h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.25em;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.our .contant .damian .damianText p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.66em;
+  color: rgba(37, 37, 37, 0.5333333333);
+}
+.our .contant .primoz {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.our .contant .primoz .primozImg {
+  width: 50%;
+}
+.our .contant .primoz .primozText {
+  width: 50%;
+}
+.our .contant .primoz .primozText h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.25em;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.our .contant .primoz .primozText p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.66em;
+  color: rgba(37, 37, 37, 0.5333333333);
+}
+
+.novelties {
+  text-align: center;
+}
+.novelties .contant h6 {
+  font-weight: 100;
+  font-size: 2.5rem;
+  line-height: 1.175em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+.novelties .contant .watchBox {
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.novelties .contant .watchBox .slick-prev.slick-arrow {
+  max-height: 30px;
+}
+.novelties .contant .watchBox .slick-prev:before {
+  content: "←";
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+}
+.novelties .contant .watchBox .slick-next:before {
+  content: "→";
+}
+.novelties .contant .watchBox .watchBoxBTN {
+  display: block !important;
+  width: 0 !important;
+}
+.novelties .contant .watchBox .watchBoxImg {
+  transform: scale(1);
+  transition: all 0.2s;
+  background-color: #f6f6f6;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 20%;
+  max-width: 290px;
+}
+.novelties .contant .watchBox .watchBoxImg img {
+  max-width: 290px;
+}
+.novelties .contant .discover {
+  margin-top: 60px;
+  width: 100%;
+  max-width: 330px;
+  height: 3rem;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  position: relative;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+  color: #fff;
+  background-color: #dc1f18;
+  border-color: #dc1f18;
+  transition: 300ms;
+}
+.novelties .contant .discover:hover {
+  background-color: #000;
+}
+
+.latest {
+  text-align: center;
+  padding-top: 50px;
+}
+.latest .contant .latestText h4 {
+  font-weight: 10;
+  font-size: 2.5rem;
+  line-height: 1.175em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.latest .contant .latestCardBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 40px;
+}
+.latest .contant .latestCardBox .latestCard {
+  width: 24%;
+  text-align: start;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  color: #000;
+  text-align: start;
+}
+.latest .contant .latestCardBox .latestCard h4 {
+  padding-top: 20px;
+  transition: 300ms;
+  text-transform: uppercase;
+}
+.latest .contant .latestCardBox .latestCard h4:hover {
+  color: #dc1f18;
+}
+.latest .contant .latestCardBox .latestCard .time {
+  padding-bottom: 20px;
+}
+.latest .contant .latestCardBox .latestCard p {
+  color: rgba(37, 37, 37, 0.7333333333);
+}
+.latest .contant .latestCardBox .latestCard img {
+  transition: 0.3s ease-in-out;
+  padding-top: 30px;
+}
+.latest .contant .latestCardBox .latestCard img:hover {
+  transform: scale(1.05);
+}
+.latest .contant .view {
+  margin-top: 50px;
+  color: #fff;
+  background-color: #dc1f18;
+  width: 100%;
+  max-width: 250px;
+  height: 3rem;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  position: relative;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+}
+.latest .contant .view:hover {
+  background-color: #000;
+}
+
+.store {
+  display: flex;
+}
+.store .locator .storeImg {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.store .locator .storeImg .storeText {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+.store .locator .storeImg .storeText p {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.175em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+}
+.store .locator .storeImg .storeText .storeBtn {
+  width: 100%;
+  max-width: 300px;
+  height: 3rem;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  position: relative;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+  margin-top: 15px;
+  color: #fff;
+  background-color: #dc1f18;
+}
+.store .locator .storeImg .storeText .storeBtn:hover {
+  background-color: #000;
+}
+.store .service .storeImg {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.store .service .storeImg .storeText {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  color: #fff;
+}
+.store .service .storeImg .storeText p {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.175em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.store .service .storeImg .storeText .storeBtn {
+  width: 100%;
+  max-width: 300px;
+  height: 3rem;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  position: relative;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+  margin-top: 15px;
+  color: #fff;
+  background-color: #dc1f18;
+}
+.store .service .storeImg .storeText .storeBtn:hover {
+  background-color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  .sport .contant {
+    padding: 50px 20px;
+  }
+  .sport .contant .sportText {
+    font-weight: 200;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  .sport .contant .sportImg {
+    display: flex;
+    flex-direction: column;
+  }
+  .sport .contant .sportImg a {
+    width: 100%;
+  }
+  .watchFor {
+    padding-top: 0px;
+  }
+  .watchFor .contant {
+    padding: 0px;
+  }
+  .watchFor .contant .forPeopleHim {
+    display: flex;
+    flex-direction: column;
+  }
+  .watchFor .contant .forPeopleHim .picture .pictureImg .pictureText .discover {
+    max-width: 300px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  .watchFor .contant .forPeopleHim .picture .pictureImg .pictureText .him {
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  .watchFor .contant .forPeopleHim .watches h4 {
+    max-width: 150px;
+    text-align: center;
+  }
+  .watchFor .contant .forPeopleHer {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .watchFor .contant .forPeopleHer .picture {
+    order: -1;
+  }
+  .watchFor .contant .forPeopleHer .picture .pictureImg img {
+    width: 100%;
+    max-width: 600px;
+  }
+  .watchFor .contant .forPeopleHer .picture .pictureImg .pictureText {
+    position: absolute;
+    top: 80px;
+  }
+  .watchFor .contant .forPeopleHer .picture .pictureImg .pictureText .discover {
+    max-width: 300px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  .watchFor .contant .forPeopleHer .picture .pictureImg .pictureText .him {
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  .watchFor .contant .forPeopleHer .watchesHer h4 {
+    max-width: 150px;
+  }
+  .our {
+    padding-top: 100px;
+  }
+  .our .contant {
+    padding: 20px;
+  }
+  .our .contant .ourText {
+    font-size: 1.5rem;
+  }
+  .our .contant .ourCategories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+  }
+  .our .contant .ourCategories .card {
+    width: 30%;
+  }
+  .our .contant .ourCategories .card .cardBox {
+    font-size: 10px;
+    letter-spacing: 0em;
+    font-weight: 200;
+    padding-right: 20px;
+  }
+  .our .contant .ourCategories .card .cardBox:hover {
+    color: #dc1f18;
+  }
+  .our .contant .gift {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .our .contant .gift .giftImg {
+    width: 100%;
+  }
+  .our .contant .gift .giftText {
+    width: 100%;
+  }
+  .our .contant .register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .our .contant .register .registerImg {
+    width: 100%;
+    order: -1;
+  }
+  .our .contant .register .registerText {
+    width: 100%;
+  }
+  .our .contant .damian {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .our .contant .damian .damianImg {
+    width: 100%;
+  }
+  .our .contant .damian .damianText {
+    width: 100%;
+  }
+  .our .contant .primoz {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .our .contant .primoz .primozImg {
+    width: 100%;
+    order: -1;
+  }
+  .our .contant .primoz .primozText {
+    width: 100%;
+  }
+  .novelties .contant {
+    padding: 20px;
+  }
+  .novelties .contant h6 {
+    font-size: 2rem;
+  }
+  .novelties .contant .discover {
+    margin-top: 40px;
+    max-width: 300px;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  .latest .contant {
+    padding: 20px;
+  }
+  .latest .contant .latestCardBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .latest .contant .latestCardBox .latestCard {
+    width: 100%;
+  }
+  .latest .contant .view {
+    margin-top: 30px;
+    max-width: 200px;
+    height: 2.5rem;
+    font-size: 0.8rem;
+  }
+  .store {
+    display: flex;
+    flex-direction: column;
+  }
+  .regsiterWatches .contant {
+    display: flex;
+    flex-direction: column;
+  }
+  .regsiterWatches .contant .onlineText {
+    width: 100% !important;
+    padding-right: 0px;
+  }
+  .regsiterWatches .contant .onlineImg {
+    margin-top: 20px;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .register .registerImg {
+    width: 50%;
+    order: 1;
+  }
+  .forPeopleHer .picture {
+    order: 1;
+  }
+  .primoz .primozImg {
+    width: 50%;
+    order: 1;
+  }
+}
+.regsiterWatches .contant {
+  display: flex;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.regsiterWatches .contant .onlineText {
+  width: 50%;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.regsiterWatches .contant .onlineText h1 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.25em;
+  text-transform: uppercase;
+}
+.regsiterWatches .contant .onlineText p {
+  padding: 20px 0;
+  font-size: 1.125em;
+  font-weight: 300;
+  line-height: 1.66em;
+  color: rgba(0, 0, 0, 0.486);
+}
+.regsiterWatches .contant .onlineText .resgiterCreate {
+  margin-top: 50px;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  display: inline-flex;
+  font-size: 0.75em;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 2px;
+  line-height: 1.33em;
+  padding: 17px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #dc1f18;
+  border: 0;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.regsiterWatches .contant .onlineText .resgiterCreate:hover {
+  background-color: #000;
+}
+.regsiterWatches .contant .onlineImg {
+  width: 50%;
+}
+
+.nav {
+  color: #000 !important;
+  border: 1px solid rgba(0, 0, 0, 0.1921568627);
+  padding-bottom: 30px;
+}
+.nav .search {
+  color: #000 !important;
+  padding: 0.8rem 1rem !important;
+}
+.nav .search:hover {
+  color: #dc1f18 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  nav .tissotFirst .contant {
+    padding: 10px;
+  }
+  nav .tissotFirst .contant .brandCustomer {
+    display: none;
+  }
+  nav .tissotFirst .contant .brandCustomerMenu {
+    display: block;
+    margin-right: 10px;
+  }
+  nav .tissotFirst .contant .logo {
+    width: 100%;
+    max-width: 150px;
+  }
+  nav .tissotFirst .contant .searchLogin .watch {
+    display: none;
+  }
+  nav .tissotFirst .contant .searchLogin .search {
+    display: none;
+  }
+  nav .tissotFirst .contant .searchLogin .search .search {
+    color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    background: none;
+    border: 1px solid black;
+    gap: 10px;
+  }
+  nav .tissortSecond .searchLogin {
+    display: block;
+  }
+  nav .tissortSecond .searchLogin .search {
+    padding: 5px 8px;
+  }
+  nav .tissortSecond ul {
+    display: none;
+  }
+}
+.title {
+  display: none;
+  padding: 20px;
+}
+.title .exitTissot {
+  display: flex;
+  justify-content: space-between;
+}
+.title .exitTissot .logo {
+  width: 100%;
+  max-width: 200px;
+}
+.title .exitTissot .exit i {
+  font-size: 22px;
+}
+.title .people {
+  padding: 40px 0;
+}
+.title .people ul li {
+  padding-top: 20px;
+}
+.title .people ul li a {
+  font-size: 25px;
+}
+.title .people ul li a:hover {
+  color: #dc1f18;
+}
+.title .line {
+  height: 2px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.title .service {
+  padding-top: 20px;
+}
+.title .service .brand {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.title .service .brand:hover {
+  color: #dc1f18;
+}
+.title .service .brand a {
+  font-size: 20px;
+}
+
+.header {
+  padding-top: 40px;
+}
+.header .contant .brand a {
+  transition: 300ms;
+}
+.header .contant .brand a:hover {
+  color: #dc1f18;
+}
+.header .contant .tissot {
+  display: grid;
+  place-items: center;
+}
+.header .contant .tissot h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.header .contant .tissot .cardBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.header .contant .tissot .cardBox .card {
+  width: 35%;
+}
+.header .contant .tissot .cardBox .card .cardImg img {
+  transition: 0.3s ease-in-out;
+  max-width: 400px;
+  height: auto;
+}
+.header .contant .tissot .cardBox .card .cardImg img:hover {
+  max-width: 435px;
+}
+.header .contant .tissot .cardBox .card .cardText p {
+  color: #000;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  header .contant {
+    padding: 10px;
+  }
+  header .contant .tissot h1 {
+    font-size: 2em;
+    padding-top: 30px;
+  }
+  header .contant .tissot .cardBox .card .cardText p {
+    font-size: 0.8em;
+  }
+}
+.nav {
+  width: 100%;
+  max-width: 1440px;
+  color: #fff;
+  background-color: #fff;
+}
+.nav .tissotFirst .contant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .tissotFirst .contant .brandCustomer {
+  display: flex;
+  gap: 20px;
+}
+.nav .tissotFirst .contant .brandCustomer a {
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.nav .tissotFirst .contant .brandCustomer a:hover {
+  color: #dc1f18;
+}
+.nav .tissotFirst .contant .brandCustomerMenu {
+  display: none;
+}
+.nav .tissotFirst .contant .brandCustomerMenu .brandIcon i {
+  font-size: 18px;
+}
+.nav .tissotFirst .contant .logo {
+  width: 100%;
+  max-width: 200px;
+}
+.nav .tissotFirst .contant .searchLogin {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav .tissotFirst .contant .searchLogin .watch {
+  transition: 400ms;
+  text-align: center;
+  max-width: 90px;
+}
+.nav .tissotFirst .contant .searchLogin .watch:hover {
+  color: #dc1f18;
+}
+.nav .tissotFirst .contant .searchLogin .watch:hover .register {
+  display: block;
+}
+.nav .tissotFirst .contant .searchLogin .watch .register {
+  display: none;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.nav .tissotFirst .contant .searchLogin .login {
+  text-align: center;
+  max-width: 100px;
+  transition: 400ms;
+}
+.nav .tissotFirst .contant .searchLogin .login:hover {
+  color: #dc1f18;
+}
+.nav .tissotFirst .contant .searchLogin .login:hover .account {
+  display: block;
+}
+.nav .tissotFirst .contant .searchLogin .login .account {
+  display: none;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.nav .tissotFirst .contant .searchLogin .search {
+  background: none;
+  border: none;
+  color: #fff;
+}
+.nav .tissotFirst .contant .searchLogin .search:hover {
+  color: #dc1f18;
+}
+.nav .tissortSecond .searchLogin {
+  padding: 10px;
+  display: none;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+.nav .tissortSecond .searchLogin .search {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem !important;
+  background: none;
+  border: 1px solid #000;
+  gap: 10px;
+}
+.nav .tissortSecond ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.nav .tissortSecond ul li a {
+  font-size: 13px;
+  font-weight: 600;
+}
+.nav .tissortSecond ul li a:hover {
+  color: #dc1f18;
+}
+
+.home {
+  padding: 20px 25px;
+  transition: 300ms;
+}
+.home a:hover {
+  color: #dc1f18;
+}
+
+.help {
+  padding-top: 20px;
+  text-align: center;
+}
+.help .contant .helpText {
+  padding-bottom: 50px;
+}
+.help .contant .helpText h1 {
+  font-size: 1.56em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.25em;
+  text-transform: uppercase;
+}
+.help .contant .helpText p {
+  padding: 20px 0;
+  font-size: 1.56em;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.175em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7725490196);
+}
+.help .contant .helpText span {
+  color: rgba(0, 0, 0, 0.9058823529);
+  font-weight: 600;
+}
+.help .contant .helpAbout {
+  text-align: start;
+}
+.help .contant .helpAbout .helpCard {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin: 20px 0;
+}
+.help .contant .helpAbout .helpCard .helpImg {
+  width: 50%;
+}
+.help .contant .helpAbout .helpCard .helpContent {
+  width: 50%;
+}
+.help .contant .helpAbout .helpCard .helpContent h4 {
+  font-size: 1.9em;
+  font-weight: 500;
+  line-height: 1.25em;
+  text-transform: uppercase;
+}
+.help .contant .helpAbout .helpCard .helpContent p {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.66em;
+  color: rgba(0, 0, 0, 0.5137254902);
+  padding: 15px 0;
+}
+.help .contant .helpAbout .helpCard .helpContent .helpBtn {
+  align-items: center;
+  background: #dc1f18;
+  border: 0;
+  border-radius: 25px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 0.75em;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 2px;
+  line-height: 1.33em;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 17px 30px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.help .contant .helpAbout .helpCard .helpContent .helpBtn:hover {
+  background-color: #000;
+}
+
+.faq {
+  padding-top: 20px;
+  text-align: center;
+}
+.faq .contant .faqText {
+  padding-bottom: 50px;
+}
+.faq .contant .faqText h1 {
+  font-size: 1.56em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.25em;
+  text-transform: uppercase;
+}
+.faq .contant .faqText p {
+  padding: 20px 0;
+  font-size: 1.56em;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.175em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7725490196);
+}
+.faq .contant .faqText span {
+  color: rgba(0, 0, 0, 0.9058823529);
+  font-weight: 600;
+}
+.faq .contant .faqCard {
+  text-align: start;
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+.faq .contant .faqCard #ask {
+  padding-right: 50px;
+}
+.faq .contant .faqCard .faqImg {
+  width: 50%;
+}
+.faq .contant .faqCard .faqContent {
+  width: 50%;
+}
+.faq .contant .faqCard .faqContent h4 {
+  max-width: 500px;
+  font-size: 1.9em;
+  font-weight: 500;
+  line-height: 1.25em;
+  text-transform: uppercase;
+}
+.faq .contant .faqCard .faqContent p {
+  max-width: 500px;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.66em;
+  color: rgba(0, 0, 0, 0.5137254902);
+  padding: 15px 0;
+}
+.faq .contant .faqCard .faqContent .produce {
+  font-size: 14px;
+  padding: 10px 0;
+}
+.faq .contant .faqCard .faqContent .faqBtn {
+  align-items: center;
+  background: #dc1f18;
+  border: 0;
+  border-radius: 25px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 0.75em;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 2px;
+  line-height: 1.33em;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 17px 30px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.faq .contant .faqCard .faqContent .faqBtn:hover {
+  background-color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  .help {
+    padding-top: 15px;
+  }
+  .help .contant {
+    padding: 20px;
+  }
+  .help .contant .helpText {
+    padding-bottom: 30px;
+  }
+  .help .contant .helpText h1 {
+    font-size: 1.3em;
+  }
+  .help .contant .helpText p {
+    padding: 15px 0;
+    font-size: 1.1em;
+  }
+  .help .contant .helpText span {
+    font-size: 15px;
+  }
+  .help .contant .helpAbout .helpCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .help .contant .helpAbout .helpCard #solar {
+    width: 100%;
+    order: -1;
+  }
+  .help .contant .helpAbout .helpCard .helpImg {
+    width: 100%;
+  }
+  .help .contant .helpAbout .helpCard .helpContent {
+    width: 100%;
+  }
+  .help .contant .helpAbout .helpCard .helpContent h4 {
+    font-size: 1.7em;
+  }
+  .help .contant .helpAbout .helpCard .helpContent p {
+    font-size: 1em;
+    padding: 10px 0;
+  }
+  .help .contant .helpAbout .helpCard .helpContent .helpBtn {
+    margin-bottom: 20px;
+  }
+  .faq .contant {
+    padding: 20px;
+  }
+  .faq .contant .faqCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .faq .contant .faqCard #treat {
+    width: 100%;
+    order: -1;
+  }
+  .faq .contant .faqCard #ask {
+    padding: 0;
+  }
+  .faq .contant .faqCard .faqImg {
+    width: 100%;
+  }
+  .faq .contant .faqCard .faqContent {
+    width: 100%;
+  }
+  .faq .contant .faqCard .faqContent h4 {
+    font-size: 1.7em;
+  }
+  .faq .contant .faqCard .faqContent p {
+    font-size: 1em;
+    padding: 10px 0;
+  }
+  .faq .contant .faqCard .faqContent .faqBtn {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nav .tissotFirst .contant {
+    padding: 10px;
+  }
+  .nav .tissotFirst .contant .brandCustomer {
+    display: none;
+  }
+  .nav .tissotFirst .contant .brandCustomerMenu {
+    display: block;
+    margin-right: 10px;
+  }
+  .nav .tissotFirst .contant .logo {
+    width: 100%;
+    max-width: 150px;
+  }
+  .nav .tissotFirst .contant .searchLogin .watch {
+    display: none;
+  }
+  .nav .tissotFirst .contant .searchLogin .search {
+    display: none;
+  }
+  .nav .tissotFirst .contant .searchLogin .search .search {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    background: none;
+    border: 1px solid #000 !important;
+    gap: 10px;
+  }
+  .nav .tissortSecond .searchLogin {
+    display: block;
+  }
+  .nav .tissortSecond .searchLogin .search {
+    padding: 5px 8px;
+  }
+  .nav .tissortSecond ul {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .helpAbout #solar {
+    width: 50%;
+    order: 1;
+  }
+  .faq #treat {
+    width: 50%;
+    order: 1;
+  }
+}
+.clickMenShow {
+  display: none;
+}
+.clickMenShow .men {
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.clickMenShow .men .menNONE {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+.clickMenShow .men p {
+  color: #dc1f18;
+  font-weight: 700;
+  padding: 10px 0 10px;
+  margin-bottom: 10px;
+  border-bottom: 1;
+  font-size: 1.8rem;
+}
+.clickMenShow .men span {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000;
+  transition: 300ms;
+  letter-spacing: 1px;
+}
+.clickMenShow .men ul li {
+  padding-top: 25px;
+}
+.clickMenShow .men ul li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000;
+  transition: 300ms;
+  letter-spacing: 1px;
+}
+.clickMenShow .men ul li a:hover {
+  color: #dc1f18;
+}
+.clickMenShow .men .menWatches {
+  background: #f7f7f7;
+  padding: 20px;
+}
+.clickMenShow .men .menImg {
+  width: 25%;
+}
+.clickMenShow .men .menImg .seaster {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.clickWomenShow {
+  display: none;
+}
+.clickWomenShow .women {
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.clickWomenShow .women .womenNONE {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+.clickWomenShow .women p {
+  color: #dc1f18;
+  font-weight: 700;
+  padding: 10px 0 10px;
+  margin-bottom: 10px;
+  border-bottom: 1;
+  font-size: 1.8rem;
+}
+.clickWomenShow .women span {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000;
+  transition: 300ms;
+  letter-spacing: 1px;
+}
+.clickWomenShow .women ul li {
+  padding-top: 25px;
+}
+.clickWomenShow .women ul li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000;
+  transition: 300ms;
+  letter-spacing: 1px;
+}
+.clickWomenShow .women ul li a:hover {
+  color: #dc1f18;
+}
+.clickWomenShow .women .womenWatches {
+  background: #f7f7f7;
+  padding: 20px;
+}
+.clickWomenShow .women .womenImg {
+  width: 25%;
+}
+.clickWomenShow .women .womenImg .seaster {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.clickCollectionShow {
+  display: none;
+}
+.clickCollectionShow .collections {
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.clickCollectionShow .collections .collectionNONE {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+.clickCollectionShow .collections p {
+  color: #dc1f18;
+  font-weight: 700;
+  padding: 10px 0 10px;
+  margin-bottom: 10px;
+  border-bottom: 1;
+  font-size: 1.8rem;
+}
+.clickCollectionShow .collections span {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000;
+  transition: 300ms;
+  letter-spacing: 1px;
+}
+.clickCollectionShow .collections ul li {
+  padding-top: 25px;
+}
+.clickCollectionShow .collections ul li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #000;
+  transition: 300ms;
+  letter-spacing: 1px;
+}
+.clickCollectionShow .collections ul li a:hover {
+  color: #dc1f18;
+}
+.clickCollectionShow .collections .collectionWatches {
+  background: #f7f7f7;
+  padding: 20px;
+}
+.clickCollectionShow .collections .collectionImg {
+  width: 25%;
+}
+.clickCollectionShow .collections .collectionImg .seaster {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.result {
+  text-align: center;
+  width: 100%;
+  padding: 50px;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}
+.result h1 {
+  color: #000;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+.result h3 {
+  font-size: 1.125em;
+  font-weight: 300;
+  line-height: 1.66em;
+  padding: 40px 0 50px;
+  max-width: 700px;
+  width: 100%;
+  color: #252525;
+}
+.result p {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 1.42857;
+  max-width: 1000px;
+  padding: 50px;
+  color: #252525;
+}
+.result span {
+  font-size: 12px;
+}
+
+.resgisteredCustomers .contant {
+  padding: 50px 100px;
+}
+.resgisteredCustomers .contant h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.25em;
+  text-transform: uppercase;
+}
+.resgisteredCustomers .contant .creat {
+  display: flex;
+  gap: 10px;
+  padding-top: 50px;
+}
+.resgisteredCustomers .contant .creat h4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1em;
+  letter-spacing: 2px;
+  line-height: 1.44em;
+  text-transform: uppercase;
+}
+.resgisteredCustomers .contant .creat .login {
+  width: 50%;
+}
+.resgisteredCustomers .contant .creat .login input {
+  margin: 10px 0;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: rgba(37, 37, 37, 0.6352941176);
+  filter: none;
+  font-size: 1em;
+  font-weight: 300;
+  height: 56px;
+  padding: 0 10px 0 15px;
+  width: 100%;
+}
+.resgisteredCustomers .contant .creat .login input a {
+  font-size: 10px;
+}
+.resgisteredCustomers .contant .creat .login .signIn {
+  align-items: center;
+  background: #dc1f18;
+  border: 0;
+  border-radius: 25px;
+  color: #fff;
+  display: inline-flex;
+  font-family: Heebo, Roboto, Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 2px;
+  line-height: 1.33em;
+  margin-top: 20px;
+  overflow: hidden;
+  padding: 17px 30px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.resgisteredCustomers .contant .creat .login .signIn:hover {
+  background-color: #000;
+}
+.resgisteredCustomers .contant .creat .line {
+  width: 1px;
+  background-color: rgba(37, 37, 37, 0.3294117647);
+  margin: 0 30px;
+}
+.resgisteredCustomers .contant .creat .newCustomers p {
+  font-size: 1.125em;
+  font-weight: 300;
+  line-height: 1.66em;
+  color: rgba(37, 37, 37, 0.7254901961);
+  padding-bottom: 50px;
+  max-width: 500px;
+  padding-top: 10px;
+}
+.resgisteredCustomers .contant .creat .newCustomers .createNew {
+  align-items: center;
+  background: #dc1f18;
+  border: 0;
+  border-radius: 25px;
+  color: #fff;
+  display: inline-flex;
+  font-family: Heebo, Roboto, Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 2px;
+  line-height: 1.33em;
+  overflow: hidden;
+  padding: 17px 30px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.resgisteredCustomers .contant .creat .newCustomers .createNew:hover {
+  background-color: #000;
+}
+
+.personal {
+  display: none;
+}
+.personal .contant {
+  width: 60%;
+}
+.personal .contant h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.25em;
+  text-transform: uppercase;
+}
+.personal .contant h4 {
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 1.44em;
+  text-transform: uppercase;
+  padding: 30px 0;
+}
+.personal .contant input {
+  margin: 10px 0;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: rgba(37, 37, 37, 0.6352941176);
+  filter: none;
+  font-size: 1em;
+  font-weight: 300;
+  height: 56px;
+  padding: 0 10px 0 15px;
+  width: 100%;
+}
+.personal .contant input a {
+  font-size: 10px;
+}
+.personal .contant .informationSign {
+  padding: 50px 0;
+}
+.personal .contant .createAccount {
+  align-items: center;
+  background: #dc1f18;
+  border: 0;
+  border-radius: 25px;
+  color: #fff;
+  display: inline-flex;
+  font-family: Heebo, Roboto, Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 2px;
+  line-height: 1.33em;
+  overflow: hidden;
+  padding: 17px 30px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.personal .contant .createAccount:hover {
+  background-color: #000;
+}
+
+.adminPanel input[type=text], .adminPanel input[type=password] {
+  width: calc(100% - 57px);
+  height: 36px;
+  margin: 13px 0 0 -5px;
+  padding-left: 10px;
+  border-radius: 0 5px 5px 0;
+  border: solid 1px #cbc9c9;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.09);
+  background: #fff;
+}
+.adminPanel input[type=password] {
+  margin-bottom: 15px;
+}
+.adminPanel #icon {
+  display: inline-block;
+  padding: 9.3px 15px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.09);
+  background: #1c87c9;
+  color: #fff;
+  text-align: center;
+}
+.adminPanel .contant #loginContainer {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.adminPanel .contant #loginContainer #loginForm {
+  width: 50%;
+}
+.adminPanel .contant #loginContainer .submit {
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  display: inline-flex;
+  font-family: Heebo, Roboto, Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 2px;
+  line-height: 1.33em;
+  padding: 17px 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.adminPanel .contant #accountTable {
+  display: none;
+  border-collapse: collapse;
+}
+.adminPanel .contant #accountTable tr:hover {
+  background-color: #ddd;
+}
+.adminPanel .contant #accountTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.adminPanel .contant #accountTable tr th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.adminPanel .contant #accountTable tr td {
+  border: 1px solid rgba(221, 221, 221, 0.3215686275);
+  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: black;
+}
+.adminPanel .contant #accountTable tr .deleteBtn {
+  background-color: #dc1f18;
+  color: #fff;
+  width: 100%;
+  height: 30px;
+  border-radius: 25px;
+  border: none;
+  transition: 300ms;
+}
+.adminPanel .contant #accountTable tr .deleteBtn:hover {
+  background-color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  .resgisteredCustomers .contant {
+    padding: 20px;
+  }
+  .resgisteredCustomers .contant h1 {
+    font-size: 1.56em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.25em;
+    text-transform: uppercase;
+  }
+  .resgisteredCustomers .contant .creat {
+    display: flex;
+    flex-direction: column;
+  }
+  .resgisteredCustomers .contant .creat h4 {
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.44em;
+    text-transform: uppercase;
+  }
+  .resgisteredCustomers .contant .creat .login {
+    width: 100%;
+  }
+  .resgisteredCustomers .contant .creat .login input {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #252525;
+    filter: none;
+    font-size: 1rem;
+    font-weight: 300;
+    height: 56px;
+    padding: 0 10px 0 15px;
+    width: 100%;
+  }
+  .resgisteredCustomers .contant .creat .login .signIn {
+    width: 100%;
+  }
+  .resgisteredCustomers .contant .creat .newCustomers {
+    padding-top: 30px;
+  }
+  .resgisteredCustomers .contant .creat .newCustomers p {
+    font-size: 1em;
+    padding-bottom: 50px;
+  }
+  .resgisteredCustomers .contant .creat .newCustomers .createNew {
+    width: 100%;
+  }
+}
+.home {
+  padding: 50px 50px 0 50px;
+}
+
+.collectionMen {
+  padding-top: 100px;
+}
+.collectionMen .imgText {
+  display: flex;
+}
+.collectionMen .imgText .menImg {
+  width: 50%;
+}
+.collectionMen .imgText .text {
+  background-color: rgb(241, 235, 243);
+  width: 50%;
+  padding: 50px 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.collectionMen .imgText .text h6 {
+  font-size: 3em;
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.collectionMen .imgText .text p {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.forMen .list {
+  padding: 100px;
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  align-items: center;
+  justify-content: center;
+}
+.forMen .list input {
+  margin-left: 5px;
+}
+.forMen .list #box {
+  border-left: none;
+}
+.forMen .list .box {
+  display: flex;
+  border-left: 1px solid black;
+  padding-right: 20px;
+  font-size: 1.2em;
+  padding: 3px;
+  padding-left: 20px;
+  align-items: center;
+}
+.forMen .list .box .boxMen {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  position: relative;
+}
+.forMen .list .checkboxes {
+  display: none;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: none;
+  width: 14%;
+  color: rgba(0, 0, 0, 0.5607843137);
+  padding-top: 15px;
+  position: absolute;
+}
+.forMen .list .menBtn {
+  background-color: #dc1f18;
+  width: 100%;
+  border-top: 1px solid black;
+}
+.forMen .list .menBtn .cancel {
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  padding: 3px;
+  transition: 300ms;
+  width: 49%;
+  max-width: 150px;
+}
+.forMen .list .menBtn .cancel:hover {
+  background-color: #000;
+  color: #fff;
+}
+.forMen .list .menBtn .apply {
+  background-color: #dc1f18;
+  border: 0;
+  border-radius: 0;
+  padding: 3px;
+  transition: 300ms;
+  width: 47%;
+  max-width: 150px;
+  color: #fff;
+}
+.forMen .list .menBtn .apply:hover {
+  background-color: #000;
+}
+
+.boxIMG .cardBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+.boxIMG .cardBox .card {
+  width: 25%;
+}
+.boxIMG .cardBox h4 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  font-weight: 600;
+}
+.boxIMG .cardBox p {
+  font-size: 0.8em;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 1.2em;
+}
+.boxIMG .img {
+  width: 100%;
+  max-width: 290px;
+  transition: 300ms;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  margin: 10px;
+}
+.boxIMG .img:hover {
+  color: #dc1f18;
+  transform: scale(1.1);
+}
+.boxIMG .img .info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.boxIMG .img .like {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.boxIMG .img .like .likeIcon {
+  background: none;
+  border: none;
+}
+.boxIMG .img .like .likeIcon i {
+  font-size: 20px;
+}
+
+#wishlist_container .cardBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+#wishlist_container .cardBox h4 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  font-weight: 600;
+}
+#wishlist_container .cardBox p {
+  font-size: 0.8em;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 1.2em;
+}
+#wishlist_container .img {
+  width: 100%;
+  max-width: 290px;
+  transition: 300ms;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  margin: 10px;
+}
+#wishlist_container .img:hover {
+  color: #dc1f18;
+  transform: scale(1.1);
+}
+#wishlist_container .img .like {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#wishlist_container .img .like .likeIcon {
+  background: none;
+  border: none;
+}
+#wishlist_container .img .like .likeIcon i {
+  font-size: 20px;
+}
+
+#details_container .cardBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+#details_container .cardBox h4 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  font-weight: 600;
+}
+#details_container .cardBox p {
+  font-size: 0.8em;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 1.2em;
+}
+#details_container .img {
+  width: 100%;
+  max-width: 290px;
+  transition: 300ms;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  margin: 10px;
+}
+#details_container .img:hover {
+  color: #dc1f18;
+  transform: scale(1.1);
+}
+#details_container .img .like {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#details_container .img .like .likeIcon {
+  background: none;
+  border: none;
+}
+#details_container .img .like .likeIcon i {
+  font-size: 20px;
+}
+
+.collectionWomen {
+  padding-top: 100px;
+}
+.collectionWomen .imgText {
+  display: flex;
+}
+.collectionWomen .imgText .womenImg {
+  width: 50%;
+}
+.collectionWomen .imgText .text {
+  background-color: rgb(241, 235, 243);
+  width: 50%;
+  padding: 50px 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.collectionWomen .imgText .text h6 {
+  font-size: 3em;
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.collectionWomen .imgText .text p {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.forWomen .list {
+  padding: 100px;
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  align-items: center;
+  justify-content: center;
+}
+.forWomen .list input {
+  margin-left: 5px;
+}
+.forWomen .list #box {
+  border-left: none;
+}
+.forWomen .list .box {
+  display: flex;
+  border-left: 1px solid black;
+  padding-right: 20px;
+  font-size: 1.2em;
+  padding: 3px;
+  padding-left: 20px;
+  align-items: center;
+}
+.forWomen .list .box .boxWomen {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  position: relative;
+}
+.forWomen .list .checkboxes {
+  display: none;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: none;
+  width: 14%;
+  color: rgba(0, 0, 0, 0.5607843137);
+  padding-top: 15px;
+  position: absolute;
+}
+.forWomen .list .womenBtn {
+  background-color: #dc1f18;
+  width: 100%;
+  border-top: 1px solid black;
+}
+.forWomen .list .womenBtn .cancel {
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  padding: 3px;
+  transition: 300ms;
+  width: 49%;
+  max-width: 150px;
+}
+.forWomen .list .womenBtn .cancel:hover {
+  background-color: #000;
+  color: #fff;
+}
+.forWomen .list .womenBtn .apply {
+  background-color: #dc1f18;
+  border: 0;
+  border-radius: 0;
+  padding: 3px;
+  transition: 300ms;
+  width: 47%;
+  max-width: 150px;
+  color: #fff;
+}
+.forWomen .list .womenBtn .apply:hover {
+  background-color: #000;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,230 @@
+.clickMenShow{
+    display: none;
+    .men {
+    padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: #fff;
+    .menNONE{
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+    p {
+        color: #dc1f18;
+        font-weight: 700;
+        padding: 10px 0 10px;
+        margin-bottom: 10px;
+        border-bottom: 1;
+        font-size: 1.8rem;
+    }
+    span{
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #000;
+        transition: 300ms;
+        letter-spacing: 1px;
+    }
+    ul{
+        li{
+            padding-top: 25px;
+            a{
+                font-size: 16px;
+                text-transform: uppercase;
+                font-weight: 400;
+                color: #000;
+                transition: 300ms;
+                letter-spacing: 1px;
+&:hover{
+    color: #dc1f18;
+}
+            }
+        }
+    }
+    .menWatches {
+        background: #f7f7f7;
+        padding: 20px;
+   
+    }
+      .menImg{
+        width: 25%;
+        .seaster{
+            color: #000;
+            text-transform: uppercase;
+            font-weight: 100;
+
+        }
+      }
+}
+}
+
+// men end 
+.clickWomenShow{
+    display: none;
+.women {
+    padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: #fff;
+    
+    .womenNONE{
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+    p {
+        color: #dc1f18;
+        font-weight: 700;
+        padding: 10px 0 10px;
+        margin-bottom: 10px;
+        border-bottom: 1;
+        font-size: 1.8rem;
+    }
+    span{
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #000;
+        transition: 300ms;
+        letter-spacing: 1px;
+    }
+    ul{
+        li{
+            padding-top: 25px;
+            a{
+                font-size: 16px;
+                text-transform: uppercase;
+                font-weight: 400;
+                color: #000;
+                transition: 300ms;
+                letter-spacing: 1px;
+&:hover{
+    color: #dc1f18;
+}
+            }
+        }
+    }
+    .womenWatches {
+        background: #f7f7f7;
+        padding: 20px;
+   
+    }
+      .womenImg{
+        width: 25%;
+        .seaster{
+            color: #000;
+            text-transform: uppercase;
+            font-weight: 100;
+
+        }
+      }
+}}
+// clickWomenShow end 
+.clickCollectionShow{
+    display: none;
+    .collections {
+    padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: #fff;
+    .collectionNONE{
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+    p {
+        color: #dc1f18;
+        font-weight: 700;
+        padding: 10px 0 10px;
+        margin-bottom: 10px;
+        border-bottom: 1;
+        font-size: 1.8rem;
+    }
+    span{
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #000;
+        transition: 300ms;
+        letter-spacing: 1px;
+    }
+    ul{
+        li{
+            padding-top: 25px;
+            a{
+                font-size: 16px;
+                text-transform: uppercase;
+                font-weight: 400;
+                color: #000;
+                transition: 300ms;
+                letter-spacing: 1px;
+&:hover{
+    color: #dc1f18;
+}
+            }
+        }
+    }
+    .collectionWatches {
+        background: #f7f7f7;
+        padding: 20px;
+   
+    }
+      .collectionImg{
+        width: 25%;
+        .seaster{
+            color: #000;
+            text-transform: uppercase;
+            font-weight: 100;
+
+        }
+      }
+}
+}
+// clickCollectionShow end 
+.result{
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    h1{
+        color: #000;
+        font-size: 2em;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 1.25em;
+        text-transform: uppercase;
+    max-width:600px;
+    width: 100%;
+    text-align: center;
+    }
+    h3{
+        font-size: 1.125em;
+        font-weight: 300;
+        line-height: 1.66em;
+        padding: 40px 0 50px;
+        max-width:700px;
+        width: 100%;
+        color: #252525;
+
+    }
+    p{
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 1.42857;
+        max-width:1000px;
+        padding: 50px;
+        color: #252525;
+
+    }
+    span{
+        font-size: 12px;
+    }
+
+}

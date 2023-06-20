@@ -1,0 +1,386 @@
+
+#nav {
+    width: 100%;
+    max-width: 1440px;
+    color: #fff;
+    padding-bottom: 20px;
+    transition: 400ms;
+    background: linear-gradient(to bottom, #25211e 0, rgba(37, 33, 30, 0) 100%);
+
+    &:hover {
+        background: #fff !important;
+        color: #000 !important;
+
+        .tissotFirst {
+            .contant {
+                .searchLogin {
+                    .search {
+                        color: #000 !important;
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    .tissotFirst {
+        .contant {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .brandCustomer {
+                display: flex;
+                gap: 20px;
+
+                a {
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    line-height: 20px;
+                    font-size: 12px;
+
+                    &:hover {
+                        color: #dc1f18;
+                    }
+                }
+            }
+
+            .brandCustomerMenu {
+                display: none;
+
+                .brandIcon {
+                    i {
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            // brandCustomer
+            .logo {
+                width: 100%;
+                max-width: 200px;
+            }
+
+            .searchLogin {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                transition: 300ms;
+
+                .watch {
+                    transition: 400ms;
+                    text-align: center;
+                    max-width: 90px;
+                    position: relative;
+                    width: 100%;
+
+                    &:hover {
+                        color: #dc1f18;
+
+                        .register {
+                            display: block;
+
+                        }
+                    }
+
+                    .register {
+                        display: none;
+                        font-size: 7px;
+                        margin-top: 5px;
+                        position: absolute;
+                    }
+                }
+
+                // watch
+                .login {
+                    text-align: center;
+                    max-width: 100px;
+                    transition: 400ms;
+                    position: relative;
+                    width: 100%;
+
+                    &:hover {
+                        color: #dc1f18;
+
+                        .account {
+                            display: block;
+                        }
+                    }
+
+                    .account {
+                        display: none;
+                        font-size: 10px;
+                        margin-top: 5px;
+                        position: absolute;
+                    }
+                }
+
+                // login
+                .search {
+                    background: none;
+                    border: none;
+                    color: #fff;
+                    display: flex;
+                    transition: 300ms;
+                    gap: 5px;
+
+                    &:hover {
+                        color: #dc1f18;
+                    }
+
+                    .fa-solid {
+                        transition: 400ms;
+                    }
+                }
+            }
+        }
+
+        // contant
+    }
+
+    // tissotFirst
+
+
+    .tissortSecond {
+        .searchLogin {
+            padding: 10px;
+            display: none;
+            margin: 0 auto;
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+            transition: 300ms;
+
+            .search {
+                color: #fff;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                padding: 0.8rem 1rem !important;
+                background: none;
+                border: 1px solid #fff;
+                gap: 10px;
+            }
+        }
+
+        ul {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            li {
+                a {
+                    font-size: 13px;
+                    font-weight: 600;
+
+                    &:hover {
+                        color: #dc1f18;
+                    }
+                }
+            }
+        }
+
+    }
+
+    // tissortSecond
+}
+
+
+@media only screen and (max-width: 768px) {
+    #nav {
+        .tissotFirst {
+            .contant {
+                padding: 10px;
+
+                .brandCustomer {
+                    display: none;
+                }
+
+                .brandCustomerMenu {
+                    display: block;
+                    margin-right: 10px;
+                }
+
+                // brandCustomer
+                .logo {
+                    width: 100%;
+                    max-width: 150px;
+                }
+
+                .searchLogin {
+                    .watch {
+                        display: none;
+                    }
+
+                    // watch
+
+                    .search {
+                        display: none;
+
+                        .search {
+                            color: #fff;
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            padding: 0.8rem 1rem;
+                            background: none;
+                            border: 1px solid #fff;
+                            gap: 10px;
+                        }
+                    }
+                }
+            }
+
+            // contant
+        }
+
+        // tissotFirst
+
+
+        .tissortSecond {
+            .searchLogin {
+                display: block;
+
+                .search {
+                    padding: 5px 8px;
+
+                }
+            }
+
+            ul {
+                display: none;
+            }
+
+        }
+
+        // tissortSecond
+
+
+
+
+
+
+    }
+}
+
+
+
+.title {
+    display: none;
+    padding: 20px;
+
+    .exitTissot {
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            width: 100%;
+            max-width: 200px;
+        }
+
+        .exit {
+            i {
+                font-size: 22px;
+
+            }
+        }
+    }
+
+    .people {
+        padding: 40px 0;
+
+        ul {
+            li {
+                padding-top: 20px;
+
+                a {
+                    font-size: 25px;
+
+                    &:hover {
+                        color: #dc1f18;
+                    }
+                }
+            }
+        }
+    }
+
+    .line {
+        height: 2px;
+        width: 100%;
+        border: 1px solid #00000033;
+    }
+
+    .service {
+        padding-top: 20px;
+
+        .brand {
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+
+            &:hover {
+                color: #dc1f18;
+            }
+
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+.clickShow{    
+    display: none;
+    background-color: #fff;
+    .searchShow {
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 100px;
+        img {
+            max-width: 200px;
+        }
+
+        .inputAndBtn {
+            width: 100%;
+            display: flex;
+            gap: 30px;
+
+            .searchWrite {
+                width: 100%;
+                font-size: 16px !important;
+                height: 3rem !important;
+                border: 0;
+                font-weight: 300;
+                color: #757575;
+            }
+
+            .searchForm {
+                background-color: #dc1f18;
+                color: #fff;
+                position: relative;
+                overflow: hidden;
+                border: 0;
+                border-radius: 25px;
+                width: 100%;
+                max-width: 120px;
+                transition: 300ms;
+                &:hover{
+                    background-color: #000;
+                }
+            }
+        }
+
+        .btnExit {
+            border: none;
+            background: none;
+
+            i {
+                font-size: 20px;
+            }
+        }
+    }}

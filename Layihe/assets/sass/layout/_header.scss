@@ -1,0 +1,110 @@
+.seastar {
+    margin-bottom: 330px;
+   
+    .contant {
+        padding: 40px;
+        max-width: 440px;
+        width: 100%;
+        color: #fff;
+        margin: 0px;
+padding-top: 70px;
+        .tissotSeastar {
+            font-size: 40px;
+            margin-bottom: 40px;
+            margin-top: -50;
+            text-shadow: 1px 1px 3px black;
+        }
+
+        .discover {
+            color: #fff;
+            background-color: #dc1f18;
+            width: 100%;
+            max-width: 36rem;
+            height: 60px;
+            border-radius: 60px;
+            border: 1px solid transparent;
+            position: relative;
+            overflow: hidden;
+            font-weight: 600;
+            font-size: 12px;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all .2s ease-in;
+            margin-top: 20px;
+
+            &:hover {
+                background-color: black;
+            }
+        }
+    }
+}
+
+
+video {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    padding-top: 100px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .seastar {
+        padding-top: 150px;
+        margin-bottom: 10px;
+        .contant {
+            padding-top: 0px;
+            max-width: 320px;
+            width: 100%;
+            color: #fff;
+            
+
+            .tissotSeastar {
+                font-size: 20px;
+                margin-bottom: -17px;
+                margin-top: 0;
+                text-shadow: 1px 1px 3px black;
+            }
+
+            .discover {
+                width: 50%;
+                max-width: 25rem;
+                height: 40px;
+            }
+        }
+    }
+
+}
+
+@media (min-aspect-ratio:16/9) {
+video{
+    width: 100%;
+    height: auto;
+}
+}
+@media (max-aspect-ratio:16/9) {
+    video{
+        width: auto;
+        height: 100%;
+    }
+    }
+
+@media only screen and (max-width: 1200px) {
+        .seastar {
+            margin-bottom: 50px;
+            .contant {
+                .tissotSeastar {
+                    font-size: 20px;
+                    margin-bottom: -17px;
+                    margin-top: 0;
+                    text-shadow: 1px 1px 3px black;
+                }
+    
+                .discover {
+                    width: 50%;
+                    max-width: 25rem;
+                    height: 40px;
+                }}}}

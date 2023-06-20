@@ -1,0 +1,252 @@
+.nav{
+    color: #000 !important;
+    border: 1px solid #00000031;
+    padding-bottom: 30px;
+    .search {
+        color: #000 !important;
+        padding: 0.8rem 1rem !important  ; 
+        &:hover {
+            color: #dc1f18 !important;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    nav {
+        .tissotFirst {
+            .contant {
+                padding: 10px;
+
+                .brandCustomer {
+                    display: none;
+                }
+
+                .brandCustomerMenu {
+                    display: block;
+                    margin-right: 10px;
+                }
+
+                // brandCustomer
+                .logo {
+                    width: 100%;
+                    max-width: 150px;
+                }
+
+                .searchLogin {
+                    .watch {
+                        display: none;
+                    }
+
+                    // watch
+
+                    .search {
+                        display: none;
+
+                        .search {
+                            color: black;
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            padding: 0.8rem 1rem;
+                            background: none;
+                            border: 1px solid black;
+                            gap: 10px;
+                        }
+                    }
+                }
+            }
+
+            // contant
+        }
+
+        // tissotFirst
+
+
+        .tissortSecond {
+            .searchLogin {
+                display: block;
+
+                .search {
+                    padding: 5px 8px;
+
+                }
+            }
+
+            ul {
+                display: none;
+            }
+
+        }
+
+        // tissortSecond
+
+
+
+
+
+
+    }
+}
+
+.title {
+    display: none;
+    padding: 20px;
+
+    .exitTissot {
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            width: 100%;
+            max-width: 200px;
+        }
+
+        .exit {
+            i {
+                font-size: 22px;
+
+            }
+        }
+    }
+
+    .people {
+        padding: 40px 0;
+
+        ul {
+            li {
+                padding-top: 20px;
+
+                a {
+                    font-size: 25px;
+
+                    &:hover {
+                        color: #dc1f18;
+                    }
+                }
+            }
+        }
+    }
+
+    .line {
+        height: 2px;
+        width: 100%;
+        border: 1px solid #00000033;
+    }
+
+    .service {
+        padding-top: 20px;
+
+        .brand {
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+
+            &:hover {
+                color: #dc1f18;
+            }
+
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+.header {
+    padding-top: 40px;
+
+    .contant {
+        .brand {
+            a {
+                transition: 300ms;
+
+                &:hover {
+                    color: #dc1f18;
+                }
+            }
+        }
+
+        .tissot {
+            display: grid;
+            place-items: center;
+
+            h1 {
+                font-size: 2.5em;
+                font-weight: 700;
+                letter-spacing: 1px;
+                line-height: 1.25em;
+                text-transform: uppercase;
+                margin-bottom: 40px;
+            }
+
+            .cardBox {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                gap: 25px;
+
+                .card {
+                    width: 35%;
+
+                    .cardImg {
+                        img {
+                            transition: .3s ease-in-out;
+                            max-width: 400px;
+                            height: auto;
+
+                            &:hover {
+                                max-width: 435px;
+                            }
+                        }
+                    }
+
+                    .cardText {
+                        p {
+                            color: #000;
+                            font-size: 1em;
+                            font-weight: 400;
+                            letter-spacing: .05em;
+                            margin: 15px;
+                            text-align: center;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        .contant {
+            padding: 10px;
+
+            .tissot {
+                h1 {
+                    font-size: 2em;
+                    padding-top: 30px;
+                }
+
+                .cardBox {
+                    .card {
+                        .cardText {
+                            p {
+                                font-size: 0.8em;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+
+}

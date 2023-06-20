@@ -1,0 +1,474 @@
+{
+  "watchesHim": [
+    {
+      "id": 1,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T139.407.16.041.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Chemin des Tourelles Powermatic 80 42 mm"
+    },
+    {
+      "id": 2,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T141.417.37.057.01_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot T-Race MotoGP Chronograph 2023 Limited Edition",
+      "about": "QUARTZ"
+    },
+    {
+      "id": 3,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T116.617.36.052.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Chrono XL Vintage",
+      "about": "QUARTZ"
+    },
+    {
+      "id": 4,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/0/T006.407.16.033.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Le Locle Powermatic 80",
+      "about": "AUTOMATIC"
+    }
+  ],
+  "watchesHer": [
+    {
+      "id": 1,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T143.210.11.011.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Everytime 34mm",
+      "about": "QUARTZ"
+    },
+    {
+      "id": 2,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T137.210.33.021.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot PRX 35mm",
+      "about": "QUARTZ"
+    },
+    {
+      "id": 3,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T120.210.11.041.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Seastar 1000 36mm",
+      "about": "QUARTZ"
+    },
+    {
+      "id": 4,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T129.210.22.013.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Classic Dream Lady",
+      "about": "QUARTZ"
+    }
+  ],
+  "latestCard": [
+    {
+      "id": 1,
+      "img_url": "https://www.tissotwatches.com/media/magazine/article-prx-35-auto-thumbnail.jpg?im=Resize=(410,380)",
+      "text": "The esteemed Swiss watch brand, known for its blend of tradition and modernity, is delighted to unveil its latest timepiece, the Tissot PRX 35mm automatic. The watch that everyone has been waiting for!",
+      "time": "6/13/23",
+      "about": "The Wait is Over: Tissot PRX 35mm Automatic is here"
+    },
+    {
+      "id": 2,
+      "img_url": "https://www.tissotwatches.com/media/magazine/thumbnail-magazine-sideral.jpg?im=Resize=(410,380)",
+      "text": "Introducing the Tissot Sideral, a bold reinterpretation of the iconic 1970s Sideral S watch. This eye-catching timepiece masterfully combines state-of-the-art materials with a vintage aesthetic that's vibrant, sporty, and fashionable.",
+      "time": "6/5/23",
+      "about": "Tissot Sideral: A Watch That Dares to Be Different"
+    },
+    {
+      "id": 3,
+      "img_url": "https://www.tissotwatches.com/media/magazine/thumbnail-magazine-news-sports-campaign.jpg?im=Resize=(410,380)",
+      "text": "Tissot’s sports campaign, staring Damian Lillard, Enea Bastianini, Primož Roglič and Jolanda Neff, highlights the importance of commitment.",
+      "time": "4/11/23",
+      "about": "No matter the goal, your time defines your greatness."
+    },
+    {
+      "id": 4,
+      "img_url": "https://www.tissotwatches.com/media/magazine/magazine-news-enea.jpg?im=Resize=(410,380)",
+      "text": "Tissot unveils Enea Bastianini as an ambassador at the Grande Premio Tissot de Portugal, the first thrilling race weekend of the 2023 season – and a Tissot Title event.",
+      "time": "3/27/23",
+      "about": "MotoGP™ prodigy Enea Bastianini unveiled as new Tissot ambassador"
+    }
+  ]
+  ,
+  "details": [
+    {
+      "id": 1,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.041.857.png?im=Resize=(387,387)",
+      "text": "Tissot official blue leather strap lugs 21 mm"
+    },
+    {
+      "id": 2,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.035.976.png?im=Resize=(387,387)",
+      "text": "Tissot official black leather strap lugs 21 mm"
+    },
+    {
+      "id": 3,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.047.777.png?im=Resize=(387,387)",
+      "text": "Tissot official brown leather strap lugs 23 mm"
+    },
+    {
+      "id": 4,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.032.781_1.png?im=Resize=(387,387)",
+      "text": "Tissot official blue leather strap lugs 19 mm"
+    },
+    {
+      "id": 5,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.036.795.png?im=Resize=(387,387)",
+      "text": "Tissot official white leather strap lugs 16 mm"
+    },
+    {
+      "id": 6,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.041.655.png?im=Resize=(387,387)",
+      "text": "Tissot official brown leather strap lugs 22 mm"
+    },
+    {
+      "id": 7,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.013.405_1.png?im=Resize=(387,387)",
+      "text": "Tissot official black leather strap lugs 19 mm"
+    },
+    {
+      "id": 8,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.043.012.png?im=Resize=(387,387)",
+      "text": "Tissot official black leather strap lugs 20 mm"
+    },
+    {
+      "id": 9,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.041.534.png?im=Resize=(387,387)",
+      "text": "Tissot official blue leather strap lugs 20 mm"
+    },
+    {
+      "id": 10,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.037.163.png?im=Resize=(387,387)",
+      "text": "Tissot official black leather strap lugs 20 mm"
+    },
+    {
+      "id": 11,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.047.701_1.png?im=Resize=(387,387)",
+      "text": "Tissot Official Dark Blue PRX Leather Strap With Steel Endpiece"
+    },
+    {
+      "id": 12,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.047.562.png?im=Resize=(387,387)",
+      "text": "Tissot Official Black PRX Leather Strap With Steel Endpiece"
+    },
+    {
+      "id": 13,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.047.777.png?im=Resize=(387,387)",
+      "text": "Tissot official brown leather strap lugs 23 mm        "
+    },
+    {
+      "id": 14,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.047.779_1.png?im=Resize=(387,387)",
+      "text": "Tissot official black leather strap lugs 23 mm        "
+    },
+    {
+      "id": 15,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T852.043.163.png?im=Resize=(387,387)",
+      "text": "Tissot official blue leather strap lugs 09 mm        "
+    }
+  ],
+  "men": [
+    {
+      "id": 1,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T121.420.47.051.01_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot T-Touch Connect Solar",
+      "about":"QUARTZ"
+    },
+    {
+      "id": 2,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T121.420.44.051.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot T-Touch Connect Solar",
+      "about":"QUARTZ"
+    },
+    {
+      "id": 3,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T121.420.47.051.02_R.png?im=Resize=(387,387)",
+      "text": "Tissot T-Touch Connect Solar",
+      "about":"QUARTZ"
+    },
+    {
+      "id": 4,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T121.420.47.051.04_R.png?im=Resize=(387,387)",
+      "text": "Tissot T-Touch Connect Solar",
+      "about":"QUARTZ"
+    },
+    {
+      "id": 5,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T121.420.47.051.05_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot T-Touch Connect Solar Jungfraubahn Swiss Edition",
+      "about":"QUARTZ"
+    },
+    {
+      "id":6,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T121.420.47.051.07_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot T-Touch Connect Solar",
+      "about":"QUARTZ"
+    },
+    {
+      "id": 7,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T121.420.47.051.06_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot T-Touch Connect Solar",
+      "about":"QUARTZ"
+    },
+    {
+      "id": 8,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T121.420.47.051.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot T-Touch Connect Solar",
+      "about":"QUARTZ"
+    },
+    {
+      "id": 9,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T137.407.11.351.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot PRX Powermatic 80 ",
+      "about":"AUTOMATIC"
+    },
+    {
+      "id": 10,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T137.427.11.011.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot PRX Powermatic 80 ",
+      "about":"AUTOMATIC"
+    },
+    {
+      "id": 11,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T137.407.11.041.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot PRX Powermatic 80",
+      "about":"AUTOMATIC"
+    },
+    {
+      "id": 12,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T129.410.16.013.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot PRX Powermatic 80 ",
+      "about":"QUARTZ"
+    },
+    {
+      "id": 13,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T137.407.11.351.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot PRX Powermatic 80 ",
+      "about":"QUARTZ"
+    },
+    {
+      "id": 14,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/0/T006.407.11.033.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot PRX Powermatic 80 ",
+      "about":"AUTOMATIC"
+    },
+    {
+      "id":15,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T139.407.11.091.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot PRX Powermatic 80 ",
+      "about":"AUTOMATIC"
+    },
+    {
+      "id": 16,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T137.427.11.011.01_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot PRX Powermatic 80 ",
+      "about":"QUARTZ"
+    },
+    {
+      "id": 17,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T120.407.11.041.03_R.png?im=Resize=(387,387)",
+      "text": "Tissot Seastar 1000 Powermatic 80",
+      "about":"quartz"
+    },
+    {
+      "id": 18,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T125.617.37.051.01_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Supersport Chrono",
+      "about":"quartz"
+    },
+    {
+      "id": 19,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T125.617.33.051.00_R_2.png?im=Resize=(387,387)",
+      "text": "Tissot Seastar 1000 36mm",
+      "about":"quartz"
+    },
+    {
+      "id": 20,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T120.417.11.041.01_R.png?im=Resize=(387,387)",
+      "text": "Tissot Supersport Chrono",
+      "about":"quartz"
+    },
+    {
+      "id": 21,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T116.617.16.057.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Seastar 1000 ",
+      "about":"quartz"
+    },
+    {
+      "id": 22,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T120.410.11.051.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Seastar 1000 36mm",
+      "about":"quartz"
+    },
+    {
+      "id": 23,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T120.210.17.116.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Supersport Chrono",
+      "about":"quartz"
+    },
+    {
+      "id": 24,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T135.417.37.051.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Seastar 1000 36mm",
+      "about":"quartz"
+    },
+    {
+      "id": 25,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T142.462.16.052.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Telemeter 1938",
+      "about":"automatic"
+    },
+    {
+      "id": 26,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T118.430.16.271.00_R.png?im=Resize=(387,387)",
+      "text": " Tissot Heritage Visodate Powermatic 80 ",
+      "about":"automatic"
+    },
+    {
+      "id": 27,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T134.410.27.011.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Heritage Visodate",
+      "about":"automatic"
+    },
+    {
+      "id": 28,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T118.430.16.051.00_R.png?im=Resize=(387,387)",
+      "text": " Tissot Heritage Visodate Powermatic 80 ",
+      "about":"automatic"
+    },
+    {
+      "id": 29,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T134.410.37.051.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Heritage Visodate",
+      "about":"automatic"
+    },
+    {
+      "id": 30,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T118.430.11.271.00_R.png?im=Resize=(387,387)",
+      "text": " Tissot Heritage Visodate Powermatic 80 ",
+      "about":"automatic"
+    },
+    {
+      "id": 31,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T118.410.11.277.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Heritage Visodate",
+      "about":"automatic"
+    },
+    {
+      "id": 32,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/1/T124.427.16.031.01_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Heritage Visodate",
+      "about":"automatic"
+    },
+    {
+      "id": 33,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T83.6.553.13_R.png?im=Resize=(387,387)",
+      "text": "Tissot Savonnette",
+      "about":"quartz"
+    },
+    {
+      "id": 34,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T83.4.553.13_1.png?im=Resize=(387,387)",
+      "text": "Tissot Savonnette",
+      "about":"quartz"
+    },
+    {
+      "id": 35,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T862.410.19.042.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Savonnette",
+      "about":"quartz"
+    },
+    {
+      "id": 36,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T859.405.29.273.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Bridgeport Mechanical Skeleton",
+      "about":"quartz"
+    },
+    {
+      "id": 37,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T859.405.19.273.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Bridgeport Mechanical Skeleton",
+      "about":"quartz"
+    },
+    {
+      "id": 38,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T81.7.221.12_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Savonnette",
+      "about":"quartz"
+    },
+    {
+      "id": 39,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T81.7.223.92_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Pendants",
+      "about":"quartz"
+    },
+    {
+      "id": 40,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/8/T82.6.550.12_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Savonnette",
+      "about":"quartz"
+    },
+    {
+      "id": 41,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/9/T931.407.41.291.00_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Gentleman Powermatic 80 Silicium Solid 18K Gold Bezel",
+      "about":"automatic"
+    },
+    {
+      "id": 42,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/9/T931.407.41.041.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Goldrun Sapphire 18K Gold",
+      "about":"automatic"
+    },
+    {
+      "id": 43,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/9/T927.407.41.031.01_R.png?im=Resize=(387,387)",
+      "text": "Tissot Goldrun Sapphire 18K Gold",
+      "about":"automatic"
+    },
+    {
+      "id": 44,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/9/T927.407.41.031.00_R_1.png?im=Resize=(800,800)",
+      "text": "Tissot Gentleman Powermatic 80 Silicium Solid 18K Gold Bezel",
+      "about":"automatic"
+    },
+    {
+      "id": 45,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/9/T927.407.46.041.01_R_1.png?im=Resize=(387,387)",
+      "text": "Tissot Gentleman Powermatic 80 Silicium Solid 18K Gold Bezel",
+      "about":"automatic"
+    },
+    {
+      "id": 46,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/9/T926.407.16.263.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Goldrun Sapphire 18K Gold",
+      "about":"automatic"
+    },
+    {
+      "id": 47,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/9/T926.410.76.041.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Goldrun Sapphire 18K Gold",
+      "about":"automatic"
+    }
+    ,
+    {
+      "id": 48,
+      "img_url": "https://www.tissotwatches.com/media/catalog/product/T/9/T926.410.76.041.00_R.png?im=Resize=(387,387)",
+      "text": "Tissot Goldrun Sapphire 18K Gold",
+      "about":"automatic"
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "text": "",
+      "about":""
+    },
+    {
+      "id": 2,     
+      "text": "",
+      "about":""
+    },
+    {
+      "id": 3,     
+      "text": "",
+      "about":""
+    },
+    {
+      "id": 4,     
+      "text": "",
+      "about":""
+    }
+  ]
+}

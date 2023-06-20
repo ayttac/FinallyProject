@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    </style>
+</head>
+<body>
+    <div class="adminPanel">
+        <div class="home">
+            <a href="./index.html">HOME</a>
+        </div>
+    <div class="contant">
+    <div id="loginContainer">
+        <h2>SIGN IN</h2>
+        <form id="loginForm">
+            <label id="icon" for="name"><i class="fas fa-user"></i></label>
+            <input type="text" name="name" id="name" placeholder="Name" required/>
+            <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+            <input type="password" name="password" id="password" placeholder="Password" required/>
+        </form>
+        <input class="submit" type="button" value="SIGN IN" onclick="login()">
+    </div>
+    
+
+    <table id="accountTable" style="display: none;">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name Prefix</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Confirm Password</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Buraya kullanıcılar dinamik olarak eklenecek -->
+        </tbody>
+    </table>
+</div>
+</div>
+    <script src="./assets/js/post.js"></script>
+</body>
+</html>
